@@ -1,0 +1,15 @@
+#1. Pengenalan Software Git
+Pada poin pertama ini, saya mempelajari tentang pengenalan atau introduction
+sebuah software untuk version control beserta fundamentalnya
+
+#2. Git Branch
+Saya juga mempelajari tentang bagaimana cara branch bekerja beserta konsep penggunaannya
+untuk pengembangan kolaborasi atau individu. Saya juga telah paham bagaimana cara membuat
+branch baru, cara menghapus dan memanipulasinya. Ada berbagai macam perintah seperti : 
+`git branch <nama-branch>` untuk membuat branch baru,
+`git branch -D <nama-branch>` untuk mengahpus sebuah branch,
+`git checkout <nama-branch>` untuk berpindah ke branch lain yang telah dibuat
+
+#3. Sinkronisasi
+Pada poin ketiga ini, saya mempelajari beberapa syntax git yang dapat untuk memanipulasi sebuah repository
+di github. Beberapa diantaranya yaitu : git init, git add <file>, git commit, git push, dan juga git merge

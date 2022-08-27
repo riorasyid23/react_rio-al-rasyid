@@ -5,3 +5,17 @@
 2. Saya mempelajari cara menggunakan fitur fitur di Figma seperti menambahkan object dan juga teks. Selain itu saya juga paham untuk memanipulasi object shape dan memberi warna yang bervariasi
 
 3. Saya juga mempelajari prototyping, yaitu bagaimana cara menghubungkan interaksi antar komponen User Interface didalam Figma dan sedikit mempelajari animasi di Figma
+
+#Essay Figma
+
+1. Button
+a.) Warna button dalam satuan RGB adalah `rgba(64, 223, 159, 1)` dan `rgba(62, 213, 152, 1)`
+b.) Jenis shadow yang dipakai dalam button adalah Drop Shadow
+c.) Background yang dipakai pada button tersebut adalah `linear-gradient(180deg, #40DF9F 0%, #3ED598 100%)`
+d.) Ukuran Box Shadow yang dipakai pada button tersebut adalah `box-shadow: 0px 2px 4px rgba(15, 218, 137, 0.3)`
+e.) Ukuran Border radius yang diterapkan pada button tersebut sebesar 12px dengan code `border-radius: 12px;`
+
+2. Card
+a.) Ukuran width card sebesar 150px dengan code `width: 150px;`
+b.) Ukuran height card sebesar 210px dengan code `height: 210px;`
+c.) Ukuran radius card sebesar 25px dengan code `border-radius: 25px;`

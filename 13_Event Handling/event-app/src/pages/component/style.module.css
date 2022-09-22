@@ -1,0 +1,62 @@
+.title {
+  font-size: 4rem;
+  text-align: center;
+}
+
+.checked {
+  text-decoration: line-through;
+  font-style: italic;
+  color: #747474;
+}
+.notchecked {
+  text-decoration: none;
+  font-style: normal;
+  color: #000000;
+}
+
+.container {
+  margin: 0px auto;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.textlist {
+  width: 600px;
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+  flex-direction: row;
+  margin-bottom: 5px;
+  border-bottom: 1px solid #747474;
+}
+.inputfield {
+  width: 600px;
+  border: none;
+  box-sizing: border-box;
+}
+.inputwrapper {
+  display: flex;
+  width: 600px;
+  flex-direction: row;
+  margin: 0 auto;
+  border-radius: 1em;
+  border: 1px solid black;
+  padding: 10px 20px;
+  box-sizing: border-box;
+}
+.inputbtn {
+  margin-left: auto;
+  background: white;
+  border: none;
+  cursor: pointer;
+}
+.delbtn {
+  margin-left: auto;
+  padding: 15px 5px;
+  border-radius: 50%;
+  background-color: #c9c9c9;
+  border: none;
+  cursor: pointer;
+}

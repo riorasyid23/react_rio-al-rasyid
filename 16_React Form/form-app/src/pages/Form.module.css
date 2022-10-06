@@ -1,0 +1,65 @@
+.form {
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: column;
+}
+.form label {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1em;
+  width: 100%;
+}
+.form div {
+  margin-top: 1em;
+}
+.form div input {
+  padding: 0.5em 1em;
+  background-color: green;
+  color: #ffffff;
+  border: none;
+  border-radius: 4px;
+}
+.form div button {
+  padding: 0.5em 1em;
+  border-radius: 4px;
+  border: 1px solid black;
+  margin-left: 1em;
+}
+.input {
+  width: 95.5%;
+  padding: 0.5em 1em;
+  border-radius: 4px;
+}
+.errorMessage {
+  font-size: 0.75rem;
+  color: red;
+  position: absolute;
+  margin-top: 4.5em;
+}
+.pendidikan {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+.pendidikan input {
+  width: 2% !important;
+  padding: unset;
+}
+.pendidikan label {
+  margin-bottom: 0;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.labelarea {
+  width: 100%;
+  padding: 8px 16px;
+  border-radius: 4px;
+  border: 2px solid black;
+  margin-bottom: 1em;
+}
+.inputarea {
+  height: 100px;
+}

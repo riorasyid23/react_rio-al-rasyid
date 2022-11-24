@@ -2,18 +2,8 @@ import { createSlice } from "@reduxjs/toolkit";
 import { v4 as uuidv4 } from "uuid";
 
 const initialState = {
-  todos: [
-    {
-      id: uuidv4(),
-      title: "Mengerjakan Exercise",
-      completed: true,
-    },
-    {
-      id: uuidv4(),
-      title: "Mengerjakan Assignment",
-      completed: false,
-    },
-  ],
+  data: [],
+  component: false,
 };
 
 export const todoSlice = createSlice({

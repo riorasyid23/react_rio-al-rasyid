@@ -1,0 +1,13 @@
+query getAnggota {
+    graphqlbasic_keterangan(where: {status: {_eq: true}}) {
+        id
+        id_anggota
+        nilai
+        pelajaran
+        status
+        anggota {
+            id
+            nama
+        }
+    }
+}
